@@ -1,0 +1,5 @@
+Therapy Session ID: TS0051
+User: Steve
+Date: 31st August 2023
+
+This is a testing document for adding header

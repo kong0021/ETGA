@@ -1,0 +1,236 @@
+
+.dashboard-header-container {
+  width: 100%;
+  background-color: #f4f4f4;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.dashboard-header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.dashboard-container {
+  width: 100vw;
+  height: 92vh;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.dashboard-sidebar {
+  width: 25%;
+  background-color: #f4f4f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-sidebar h4 {
+  margin: 0 0 15px 0;
+  font-size: 18px;
+  color: #000000;
+}
+
+.dashboard-appointment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-form-button {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #61BDF0;
+  color: white;
+  cursor: pointer;
+}
+
+.dashboard-form-button:hover {
+  background-color: #61BDF0;
+}
+
+.dashboard-patients-section {
+  margin-top: 20px;
+}
+
+.dashboard-patients-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard-patients-section ul li {
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+  cursor: pointer;
+}
+
+.dashboard-patients-section ul li:hover {
+  background-color: #e5e5ea;
+}
+
+.dashboard-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+#dashboard-calendar {
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-calendar-header button {
+  padding: 5px 10px;
+  background-color: #61BDF0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-calendar-header button:hover {
+  background-color: #61BDF0;
+}
+
+.dashboard-calendar-days {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-calendar-days .dashboard-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.dashboard-calendar-days .dashboard-day.dashboard-active {
+  background-color: #f44336;
+  color: white;
+  border-radius: 10px;
+}
+
+.dashboard-calendar-days .dashboard-day span {
+  margin: 5px 0;
+}
+
+.dashboard-dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dashboard-yellow {
+  background-color: #ffeb3b;
+}
+
+.dashboard-teal {
+  background-color: #009688;
+}
+
+.dashboard-blue {
+  background-color: #2196f3;
+}
+
+.dashboard-red {
+  background-color: #f44336;
+}
+
+.dashboard-sessions {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-sessions-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.dashboard-session-list {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.dashboard-session-list h4 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #000000;
+}
+
+#dashboard-chatbot-btn, #dashboard-profile-btn{
+  padding: 10px;
+  background-color: #61BDF0;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-right: 10px;
+}
+
+.dashboard-chatbot-btn:hover {
+  background-color: #61BDF0;
+  
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-btn:hover, .close-btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}

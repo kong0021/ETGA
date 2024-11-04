@@ -1,0 +1,128 @@
+/* General body and html styling to ensure the container takes full height */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main chat container that holds the message list and form */
+.chat-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Chat card styling */
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header section of the chat */
+.card-header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Message box: holds the list of messages and allows scrolling */
+.messages-box {
+  flex: 1;
+  overflow-y: auto;
+  padding: 15px;
+  background-color: #f8f9fa;
+}
+
+/* Unordered list for messages (removes default padding) */
+.messages-list {
+  padding-left: 0;
+}
+
+/* Each message (removes list-style for list items) */
+.message {
+  list-style: none;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* The message text wrapper */
+.message-text {
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 75%;
+  word-wrap: break-word;
+}
+
+/* Sent messages (align to the right, green background) */
+.sent {
+  align-self: flex-end;
+  background-color: #dcf8c6;
+}
+
+/* Received messages (align to the left, gray background) */
+.received {
+  align-self: flex-start;
+  background-color: #f1f0f0;
+}
+
+/* Sender name styling (bold) */
+.message-sender {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Message content styling */
+.message-content {
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-wrap: normal;
+  margin-bottom: 20px;
+}
+
+/* Message form at the bottom of the screen */
+.message-form {
+  display: flex;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e3e3e3;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Input field for typing messages */
+.message-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 0;
+  border-right: none;
+  font-size: 16px;
+}
+
+/* Button for sending the message */
+.btn-send {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+  padding: 10px;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+.btn-send:hover {
+  background-color: #0056b3;
+}
+
+/* Ensure chat scrolls smoothly */
+.messages-box {
+  scroll-behavior: smooth;
+}

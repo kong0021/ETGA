@@ -1,0 +1,10 @@
+Therapy Session ID: TS0031
+Description: Alice Raven's Second Therapy Session
+User: Alice Raven
+Date: 5th July 2023
+
+Therapist: Hi Alice. How have you been since our last session?
+Alice: I've been feeling a bit better. The mindfulness exercises have been helpful.
+Therapist: That's good to hear. How did managing stress at work go this week?
+Alice: It was still challenging, but I felt more in control.
+Therapist: Let's continue exploring techniques to build on this progress.

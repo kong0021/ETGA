@@ -1,0 +1,137 @@
+p {
+    font-family: Roboto, Arial;
+}
+
+html, body, .loginform-main-container {
+    height: 100vh;
+    font-family: Roboto, Arial;
+    margin: 0;
+}
+
+.loginform-box-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin: 0;
+}
+
+.loginform-left-box {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    max-height: 1080px;
+    width: 50%;
+    text-align: center;
+}
+
+.loginform-email-label {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-bottom: 0;
+    margin-top: 220px;
+    font-size: 20px;
+}
+
+.loginform-email-input {
+    flex: 1;
+    margin-top: 250px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 50px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: rgb(150, 150, 150);
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.loginform-email-input::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 18px;
+    color: black;
+    opacity: 50%;
+}
+
+.loginform-password-label {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: -30px;
+    font-size: 20px;
+}
+
+.loginform-password-input {
+    flex: 1;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 50px;
+    border-style: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+    background-color: rgb(150, 150, 150);
+}
+
+.loginform-password-input::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 18px;
+    color: black;
+    opacity: 50%;
+}
+
+.loginform-forgot-password {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    color: rgb(97, 92, 148);
+    margin-bottom: 10px;
+    margin-left: 175px;
+}
+
+.loginform-forgot-password-link {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    color: blue;
+}
+
+.loginform-login-button {
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: white;
+    font-family: Roboto, Arial;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(60, 120, 250);
+    cursor: pointer;
+}
+
+.loginform-login-button:hover {
+    background-color: rgb(41, 96, 215);
+}
+
+.loginform-sign-up {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.loginform-sign-up-link {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    color: blue;
+}
+
+.loginform-right-box {
+    background-image: url('public/signin.jpg');
+    background-size: 75%;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}

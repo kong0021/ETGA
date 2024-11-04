@@ -1,0 +1,10 @@
+Therapy Session ID: TS0033
+Description: Alice Raven's Third Therapy Session
+User: Alice Raven
+Date: 12th July 2023
+
+Therapist: Hi Alice. It's good to see you again. How have things been going?
+Alice: I've had a rough week. The stress at work piled up again.
+Therapist: Let's revisit some relaxation techniques and see how we can tailor them to your current situation.
+Alice: I think I need more strategies to manage this consistently.
+Therapist: We can work on that. Let's start by identifying triggers and responses.

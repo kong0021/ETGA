@@ -1,0 +1,13 @@
+Therapy Session ID: TS0050
+User: David Garcia
+Date: 22nd July 2023
+
+Therapist: Hi David. How have you been doing?
+David: I've been feeling down lately. I think it's related to work stress.
+Therapist: Let's explore what aspects of work are contributing to your stress.
+David: It's the pressure to meet deadlines and the constant changes in the company.
+Therapist: Let's work on stress management techniques and strategies to navigate workplace challenges.
+David: I appreciate your support. I need to find better ways to cope with this.
+Therapist: What do you generally do when you are stressed?
+David: I tend to keep an open mind and try avoid things like alcohol and smoking. I am aware that indulging too much alcohol during tough times can lead to an addiction. But keeping an open mind is not working. Do you have any other suggestions for me to cope with my stress?
+Therapist: It is good to have this type of mindset. Why not trying to communicate with your colleagues.
